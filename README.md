@@ -9,13 +9,11 @@ pragma solidity 0.7.5;
 
 contract GitTest2021{
     
-    string message;
+    string public message;
     
     function setMessage(string memory _Message) public{
         message = _Message;
     }
     
-    function getMessage()public view returns(string memory){
-        return message;
-    }
+    
 }
